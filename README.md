@@ -1,0 +1,2 @@
+# BremerBib
+Collective Bibtex bibliography
