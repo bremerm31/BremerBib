@@ -1,0 +1,90 @@
+% Rietmann Newmark LTS with P-Scotch papers
+@article{Rietmann2017,
+title = "Newmark local time stepping on high-performance computing architectures",
+journal = "Journal of Computational Physics",
+volume = "334",
+pages = "308 - 326",
+year = "2017",
+author = "Max Rietmann and Marcus Grote and Daniel Peter and Olaf Schenk",
+note = "CG Newmark method for seismic wave-propagation"
+}
+
+@INPROCEEDINGS{Rietmann2015,
+author={M. Rietmann and D. Peter and O. Schenk and B. Uçar and M. Grote},
+booktitle={2015 IEEE International Parallel and Distributed Processing Symposium},
+title={Load-Balanced Local Time Stepping for Large-Scale Wave Propagation},
+year={2015},
+pages={925-935},
+month={May},
+note = "Newmark method, with P-Scotch partitioning"
+}
+
+% DES Stone paper
+@article{Stone2017,
+title = "Asynchronous discrete event schemes for {PDEs}",
+journal = "Journal of Computational Physics",
+volume = "342",
+pages = "161 - 176",
+year = "2017",
+author = "D. Stone and S. Geiger and G.J. Lord",
+note = "Heriot Watt paper for subsurface flow; presents first order convergence proof"
+}
+
+% PDES Omelchenko papers
+@InProceedings{Karimabadi2006,
+author="Karimabadi, Homa and Driscoll, Jonathan and Dave, Jagrut and Omelchenko, Yuri and Perumalla, Kalyan and Fujimoto, Richard and Omidi, Nick",
+editor="Dongarra, Jack
+and Madsen, Kaj
+and Wa{\'{s}}niewski, Jerzy",
+title="Parallel Discrete Event Simulations of Grid-Based Models: {A}synchronous Electromagnetic Hybrid Code",
+booktitle="Applied Parallel Computing. State of the Art in Scientific Computing",
+year="2006",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="573--582",
+note = "Conservative code for PIC, only goes out to 100 cores and doesn't scale past 10 cores"
+}
+
+@article{Omelchenko2006,
+title = "Event-driven, hybrid particle-in-cell simulation: {A} new paradigm for multi-scale plasma modeling",
+journal = "Journal of Computational Physics",
+volume = "216",
+number = "1",
+pages = "153 - 178",
+year = "2006",
+author = "Y.A. Omelchenko and H. Karimabadi",
+note = "Discrete event simulation; serial"
+}
+
+@INPROCEEDINGS{Omelchenko2014,
+author={Y. A. Omelchenko and H. Karimabadi},
+booktitle={Proceedings of the Winter Simulation Conference 2014},
+title={Parallel asynchronous hybrid simulations of strongly inhomogeneous plasmas},
+year={2014},
+pages={3435-3446},
+month={Dec},
+note = "Talks about parallel simulation, but only goes out to 4 cores"
+}
+
+%DG-ADER Timestepping papers
+@article{Dumbser2007,
+author = {Dumbser Michael and K\"{a}ser Martin and Toro Eleuterio F.},
+title = {An arbitrary high‐order {Discontinuous Galerkin} method for elastic waves on unstructured meshes – {V.} Local time stepping and $p$‐adaptivity},
+journal = {Geophysical Journal International},
+volume = {171},
+year={2007},
+number = {2},
+pages = {695-717},
+note = "DES type timestepping for DG-ADER -- no preemption"
+}
+
+
+@INPROCEEDINGS{Breuer2016,
+author={A. Breuer and A. Heinecke and M. Bader},
+booktitle={2016 IEEE International Parallel and Distributed Processing Symposium (IPDPS)},
+title={Petascale Local Time Stepping for the ADER-DG Finite Element Method},
+year={2016},
+pages={854-863},
+month={May},
+note = "First serious LTS paper runs up to 86,000 cores for seismic application; clusters steps"
+}
