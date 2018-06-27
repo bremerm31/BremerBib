@@ -63,17 +63,6 @@ month={May},
 comment = "Newmark method, with P-Scotch partitioning"
 }
 
-% DES Stone paper
-@article{Stone2017,
-title = "Asynchronous discrete event schemes for {PDEs}",
-journal = "Journal of Computational Physics",
-volume = "342",
-pages = "161 - 176",
-year = "2017",
-author = "D. Stone and S. Geiger and G.J. Lord",
-comment = "Heriot Watt paper for subsurface flow; presents first order convergence proof"
-}
-
 % PDES Omelchenko papers
 @InProceedings{Karimabadi2006,
 author="Karimabadi, Homa and Driscoll, Jonathan and Dave, Jagrut and Omelchenko, Yuri and Perumalla, Kalyan and Fujimoto, Richard and Omidi, Nick",
@@ -121,6 +110,28 @@ month={Dec},
 comment = "Talks about parallel simulation, but only goes out to 4 cores"
 }
 
+% Other PDES papers (Unfer, Stone)
+@article{Unfer2007,
+title = "An asynchronous scheme with local time stepping for multi-scale transport problems: {A}pplication to gas discharges",
+journal = "Journal of Computational Physics",
+volume = "227",
+number = "2",
+pages = "898 - 918",
+year = "2007",
+author = "Thomas Unfer and Jean-Pierre Boeuf and François Rogier and Frédéric Thivet",
+comment = "Uses omelchenko paper as motivation, DES approach focusing on updating varation at sources and fluxes (kind of FV-like), two scheduling approaches, based either on a binary tree or a discrete timescheduler"
+}
+
+@article{Stone2017,
+title = "Asynchronous discrete event schemes for {PDEs}",
+journal = "Journal of Computational Physics",
+volume = "342",
+pages = "161 - 176",
+year = "2017",
+author = "D. Stone and S. Geiger and G.J. Lord",
+comment = "Heriot Watt paper for subsurface flow; presents first order convergence proof"
+}
+
 %DG-ADER Timestepping papers
 @article{Dumbser2007,
 author = {Dumbser Michael and K\"{a}ser Martin and Toro Eleuterio F.},
@@ -133,6 +144,15 @@ pages = {695-717},
 comment = "DES type timestepping for DG-ADER -- no preemption"
 }
 
+@article{Taube2009,
+author = {Taube, Arne and Dumbser, Michael and Munz, Claus‐Dieter and Schneider, Rudolf},
+title = {A high‐order discontinuous {G}alerkin method with time‐accurate local time stepping for the {M}axwell equations},
+journal = {International Journal of Numerical Modelling: Electronic Networks, Devices and Fields},
+volume = {22},
+number = {1},
+year = {2009},
+pages = {77-103}
+}
 
 @INPROCEEDINGS{Breuer2016,
 author={A. Breuer and A. Heinecke and M. Bader},
